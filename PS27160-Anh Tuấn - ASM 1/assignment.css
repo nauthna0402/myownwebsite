@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --text-color:green;
+}
+body{
+    background-color: rgb(194, 201, 168);
+}
+#wrapper {
+    /* width: 100%;
+    height: 100%; */
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: rgb(194, 201, 168);
+}
+.nav_menu-left>li{
+    display: inline;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    
+}
+.stuff {
+    list-style-type: none;
+    background-color: #fff
+}
+.stuff:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.nav_menu-right>li {
+    display: inline;
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color:rgb(6, 73, 51);
+}
+.logo {
+    width: 30%;height: 50%;
+    margin: 0 auto;
+    padding: 5px;
+
+}
+.containers {
+    width: 500px;
+    margin: 0 auto;
+    display: inline;
+    padding-left: 20px;
+
+}
+.products_type {
+    display: inline;
+    float: left;
+    position: relative;
+    padding: 15px;
+}
+.main {
+
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+.onsale {
+    position: absolute;
+    top: 2em;
+    right: 3px;
+}
+.products_name {
+    position: relative;
+    left: 55px;
+}
+.products_name-secondary {
+    position: relative;
+    left:80px
+}
+.footer{
+    position: absolute;
+}
+.footer_menu{
+    position: relative;
+    font-size: 12px;
+    display: inline;
+    margin: 0 auto;
+    top: 95em;
+    right: 50em;
+}
+.footer_menu>ul>li {
+    display: inline-block;
+    padding: 5px;
+}
+.footer-bottom {
+    margin: 0 auto; 
+    display: inline;
+
+}
+.instagram {
+    display: inline-block;
+    padding-right: 5px;
+}
+.facebook {
+    display: inline-block;
+    
+}

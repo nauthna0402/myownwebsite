@@ -1,0 +1,42 @@
+
+*{padding: 0px; margin: 0px; box-sizing: border-box;}
+.sanpham>img{width: 90%;
+height: 90%;}
+
+.sanpham >img:hover {
+    box-sizing: border-box;
+    padding:10px;
+    box-shadow:  0 0 10px  green;
+    
+    }
+
+.menu{width: 1020px; margin: 0 auto;
+}
+
+   .column{width: 25%;
+
+
+       float: left;
+ }
+.sanpham{
+       
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 2px  gray;
+        padding:10px;
+        margin: 15px;
+        text-align: center;
+    }
+.sanpham.ten{
+        font-size: larger;
+        font-variant: small-caps;
+        color:blue;
+    }
+.sanpham .gia{
+        color:red;
+        font-size: larger;
+        font-weight: bold;
+    }
+.sanpham.gia del{
+        color:gray;
+    }
+.a2{text-align: right;}

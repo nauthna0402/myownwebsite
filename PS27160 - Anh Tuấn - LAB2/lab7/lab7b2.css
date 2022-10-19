@@ -1,0 +1,42 @@
+.col-25{
+    width:25%;
+    float:left;
+}
+.prod{
+border-radius:10px;
+ box-shadow:0 0 5px gray;
+ margin:5px;
+ padding:5px;
+ text-align:center;
+ position:relative;
+}
+.prod>.name{
+ font-variant:small-caps;
+ color:orangered;
+}
+.prod>.image{
+ max-width:98%;
+ height:150px;
+ margin-bottom:10px;
+}
+ .prod>.price{
+ position:absolute;
+ right:5%;
+ bottom:5%;
+ font-family:Impact;
+ font-size:25px;
+ color:orange;
+}
+ .prod>.icons{
+ position:absolute;
+ left:3%;
+ bottom:0px;
+ width:5%;
+ 
+}
+ .prod>.new-icon{
+ position:absolute;
+ top:5%;
+ right:5%;
+}
+

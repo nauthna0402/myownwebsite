@@ -1,0 +1,16 @@
+p{
+    text-align: center;
+}
+p >img{
+    width:20%;
+    height:150px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: gold;
+    box-shadow: 2px 2px 2px green ;
+}
+p>img:hover{
+    box-shadow:2px 2px 20px red;
+    background-color: aqua;
+}
